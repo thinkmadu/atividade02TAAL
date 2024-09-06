@@ -3,7 +3,6 @@ package codArvores;
 import absClass.*;
 import java.util.LinkedList;
 import java.util.Queue;
-// import mathUtils;
 
 public class AVLTree extends AbstractSelfBalancingBinarySearchTree {
     @Override

@@ -1,9 +1,8 @@
 package codArvores;
 
+import absClass.*;
 import java.util.LinkedList;
 import java.util.Queue;
-
-import absClass.*;
 
 public class RedBlackTree extends AbstractSelfBalancingBinarySearchTree {
     private int rotacaoEsquerda = 0;
