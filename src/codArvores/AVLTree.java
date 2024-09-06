@@ -127,7 +127,7 @@ public class AVLTree extends AbstractSelfBalancingBinarySearchTree {
     private static final void updateHeight(AVLNode node) {
         int leftHeight = (node.left == null) ? -1 : ((AVLNode) node.left).height;
         int rightHeight = (node.right == null) ? -1 : ((AVLNode) node.right).height;
-        node.height = 1 + mathUtils.getMax(leftHeight, rightHeight);
+        node.height = 1 + mathUtil.getMax(leftHeight, rightHeight);
     }
 
     protected static class AVLNode extends Node {
