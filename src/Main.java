@@ -1,6 +1,6 @@
 import codArvores.*;
 import java.util.Random;
-
+import java.util.Scanner;
 import codArvores.*;
 
 public class Main {
